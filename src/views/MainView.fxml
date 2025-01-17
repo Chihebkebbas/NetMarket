@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.MainController">
+    <!-- Barre supérieure -->
+    <top>
+        <HBox spacing="10" style="-fx-padding: 10; -fx-background-color: #2c3e50;">
+            <Label text="NetMarket" style="-fx-text-fill: white; -fx-font-size: 18px;" />
+            <Label text="🔔 Notifications" style="-fx-text-fill: white;" />
+            <Label text="🛒 Panier" style="-fx-text-fill: white;" />
+        </HBox>
+    </top>
+
+    <!-- Barre latérale -->
+    <left>
+        <VBox spacing="10" style="-fx-background-color: #34495e; -fx-padding: 10;">
+            <Button text="Tableau de bord" onAction="#onDashboardClicked" style="-fx-text-fill: white; -fx-background-color: #2c3e50;" />
+            <Button text="Fournisseur" onAction="#onFournisseursClicked" style="-fx-text-fill: white; -fx-background-color: #2c3e50;" />
+            <Button text="Contrat" onAction="#onContratsClicked" style="-fx-text-fill: white; -fx-background-color: #2c3e50;" />
+            <Button text="Achat" onAction="#onAchatsClicked" style="-fx-text-fill: white; -fx-background-color: #2c3e50;" />
+            <Button text="Stock" onAction="#onStocksClicked" style="-fx-text-fill: white; -fx-background-color: #2c3e50;" />
+            <Button text="Vente" onAction="#onVentesClicked" style="-fx-text-fill: white; -fx-background-color: #2c3e50;" />
+            <Button text="Commande" onAction="#onCommandesClicked" style="-fx-text-fill: white; -fx-background-color: #2c3e50;" />
+        </VBox>
+    </left>
+
+    <!-- Contenu principal -->
+    <center>
+        <BorderPane fx:id="centerPane">
+            <center>
+                <Label text="Bienvenue sur NetMarket" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+            </center>
+        </BorderPane>
+    </center>
+</BorderPane>
