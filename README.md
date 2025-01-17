@@ -48,8 +48,8 @@ Pour une analyse complète du projet et davantage de détails, vous pouvez consu
 
 2. **Cloner le projet** :
       ```bash
-[   https://github.com/ton-repo/netmarket.git](https://github.com/malekghabi1607/NetMarket](https://github.com/malekghabi1607/NetMarket)
-   cd netmarket
+      git clone https://github.com/malekghabi1607/NetMarket.git
+   cd NetMarket
       
 3. **Configurer la base de données** :
      -  Créez une base de données PostgreSQL.
