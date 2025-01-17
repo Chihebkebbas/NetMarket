@@ -70,6 +70,7 @@ Pour une analyse complète du projet et davantage de détails, vous pouvez consu
 Voici quelques captures d’écran pour mieux comprendre l’interface et les fonctionnalités du projet.
 
 - 📜 Interface console:
+  
 ![Capture d’écran 2025-01-17 à 20 15 27](https://github.com/user-attachments/assets/488750e4-108d-421f-ab9c-7428ecd89190)
 ![Capture d’écran 2025-01-17 à 20 21 24](https://github.com/user-attachments/assets/6251946d-a9eb-4c6b-8d30-a4d6f41e1a6f)
 ![Capture d’écran 2025-01-17 à 20 30 29](https://github.com/user-attachments/assets/db5fbaac-6d63-4b4f-afa4-85346ffde620)
